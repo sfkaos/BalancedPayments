@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ASIHTTPRequest.h"
 
 @interface BPAccessManager : NSObject
 
 + (id)sharedManager;
+- (ASIHTTPRequest*)baseRequest;
 
 @end

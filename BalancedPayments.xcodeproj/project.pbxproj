@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		232B8E541665F04800954185 /* BPCreditCardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 232B8E531665F04800954185 /* BPCreditCardManager.m */; };
 		238B8CC21662F2A500CEACAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238B8CC11662F2A500CEACAA /* UIKit.framework */; };
 		238B8CC41662F2A500CEACAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238B8CC31662F2A500CEACAA /* Foundation.framework */; };
 		238B8CC61662F2A500CEACAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238B8CC51662F2A500CEACAA /* CoreGraphics.framework */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		232B8E521665F04800954185 /* BPCreditCardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPCreditCardManager.h; sourceTree = "<group>"; };
+		232B8E531665F04800954185 /* BPCreditCardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPCreditCardManager.m; sourceTree = "<group>"; };
 		238B8CBD1662F2A500CEACAA /* BalancedPayments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalancedPayments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		238B8CC11662F2A500CEACAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		238B8CC31662F2A500CEACAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -176,6 +179,8 @@
 				238B8CC81662F2A500CEACAA /* Supporting Files */,
 				238B8CFF1662F43B00CEACAA /* BPAccessManager.h */,
 				238B8D001662F43B00CEACAA /* BPAccessManager.m */,
+				232B8E521665F04800954185 /* BPCreditCardManager.h */,
+				232B8E531665F04800954185 /* BPCreditCardManager.m */,
 			);
 			path = BalancedPayments;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 				238B8D181662FC6300CEACAA /* ASIDownloadCache.m in Sources */,
 				238B8D1B1662FC7100CEACAA /* ASIAuthenticationDialog.m in Sources */,
 				238B8D1E1662FC8700CEACAA /* Reachability.m in Sources */,
+				232B8E541665F04800954185 /* BPCreditCardManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +554,7 @@
 				238B8CFB1662F2A600CEACAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		238B8CFC1662F2A600CEACAA /* Build configuration list for PBXNativeTarget "BalancedPaymentsTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +563,7 @@
 				238B8CFE1662F2A600CEACAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
