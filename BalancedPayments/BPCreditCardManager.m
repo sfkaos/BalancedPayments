@@ -12,9 +12,9 @@
 + (id)sharedManager
 {
     static dispatch_once_t pred;
-    static BPAccessManager *sharedManager_ = nil;
+    static BPCreditCardManager *sharedManager_ = nil;
     dispatch_once(&pred, ^{
-        sharedManager_ = [[BPAccessManager alloc] init];
+        sharedManager_ = [[BPCreditCardManager alloc] init];
     });
     return sharedManager_;
 }
